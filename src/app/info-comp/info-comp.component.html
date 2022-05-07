@@ -1,0 +1,15 @@
+<div class="container">
+    <div>
+        <h2> {{insideInfo.name.firstname}} {{insideInfo.name.lastname}} Full Info </h2>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item"> User Name : {{insideInfo.username}}</li>
+        <li class="list-group-item">Password : {{insideInfo.password}}</li>
+        <li class="list-group-item">Email : {{insideInfo.email}}</li>
+        <li class="list-group-item">GeoLocation : lat {{insideInfo.address.geolocation.lat}} GeoLocation:long: {{insideInfo.address.geolocation.long}}  </li>
+        <li class="list-group-item">City : {{insideInfo.address.city}} </li>
+        <li class="list-group-item">Street : {{insideInfo.address.street}}</li>
+        <li class="list-group-item">Number :{{insideInfo.address.number}}</li> 
+        <li class="list-group-item">Zip Code :{{insideInfo.address.zipcode}}</li>
+    </ul>
+</div>
