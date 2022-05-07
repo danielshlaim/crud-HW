@@ -13,7 +13,7 @@ import { InfoCompComponent } from './info-comp/info-comp.component';
 
 
 const peopleComp:Routes= [
-  {path:"menu",component:MenuComponent},
+  {path:"",component:MenuComponent},
   {path:"person-table",component:PersonTableComponent},
   {path:"info-comp/:id",component:InfoCompComponent},
 ]
